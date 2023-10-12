@@ -30,6 +30,11 @@ In the web browser open the following link: http://localhost:8443/
 
 Alternatively, you can access the CLI of the environment by executing: `docker exec -it 3dsmc /bin/bash`
 
+### Directories
+
+The directory `app` stores the Docker container files. (nothing should be done there).
+
+The directory `files` is shared with the container (VSCode). You will need to place there the exercises from Moodle.
 
 
 
